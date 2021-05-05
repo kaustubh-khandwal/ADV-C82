@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>My Canvas</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="bootstrap/js/jquery.min.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h4>My First Canvas</h4>
+        <canvas id="myCanvas" width="800" height="600">
+
+        </canvas>
+        <br> <br>
+        <div class="container-row">
+            <div class="col-4 border shadow-lg bg-success py-3">
+        <div class="form-group">
+          <div> <label for="input_color">Select Pen Color</label></div> 
+        <input type="color" name="" id="input_color" class="form-control-col-2">
+       <br> <br>
+      <div><label for="input_radius">Select Pen Radius</label></div>
+          <input type="number" id="input_radius" placeholder="Enter circle radius" class="form-control-col-4">
+      <br> <br>
+      <div><label for="input_width">Select Pen Size</label></div>
+      <input type="number" name="" id="input_width" placeholder="Enter line width" class="form-control-col-4">
+
+      <br> <br>
+      <button onclick="clear_area()">Clear Canvas</button>
+    </div>
+    </div>
+    </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
